@@ -1,1 +1,13 @@
-
+spring.application.name=expense-service
+server.port=8086
+ 
+# DB Config
+spring.datasource.driver-class-name=org.postgresql.Driver
+spring.datasource.url=jdbc:postgresql://localhost:5432/expense_Tracker
+spring.datasource.username=postgres
+spring.datasource.password=postgres
+ 
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.generate-ddl=true
+Web Server's Default Page
+ 
